@@ -2,7 +2,7 @@ version: "3.8"
 
 services:
     master:
-      image: ra36363/mywebclass:master
+      image: erikguaman/mywebclass:master
       deploy:
         replicas: 2
       pull_policy: always
